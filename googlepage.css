@@ -1,0 +1,41 @@
+li{
+	display:inline-block;
+	float:right;
+	padding:10px;
+	
+}
+#gmail{
+	width:30px;
+	
+}
+#apps{
+	width:25px;
+	
+}
+#labs{
+	width:25px;
+	
+}
+input{
+	padding:30px;
+	width:400px;
+	height:1px;
+	margin-left:35%;
+    border-radius:50px;
+	font-size:17px;
+}
+
+#fixed{
+	 border:1px solid black;
+	 border-radius:40px;
+	 width:200px;
+	 padding:1px;
+	margin-top:230px;
+	margin-left:1300px;
+	position:fixed;
+	
+}
+h3{
+	color:blue;
+	font-size:15px;
+}

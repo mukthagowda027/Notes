@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+      <head>
+	  
+	  <title>forms</title>
+	  <style>
+	  input{
+	      padding:5px;
+		  margin:5px;
+	  }
+	  label{
+	  font-weight:bold;
+	  }
+	  
+	  </style>
+	  
+	  
+	  
+	  
+       </head>
+      <body>
+
+
+
+         <form method='post' action='registration' enctype='multipart/form-data'>
+		 
+		 <input  type='name'  placeholder='Enter your name'  name='user_name'  value='mehra' disabled /><br/>
+		 <input  type='email'  placeholder='Enter your email'  name='user_mailid'   /><br/>
+		 <input  type='password'  placeholder='Enter your password'  name='user_pswd'  required minlength='10'/><br/>
+		 <label>Enter your DOB</label>
+		 <input  type='date'  name='user_dob'   /><br/>
+		 <input type='search' placeholder='search something' name='user_search'/><br/>
+		 <label>Are you interested in FSD</label>
+		 <input  type='checkbox' checked /><br/>
+		 <label>Are you interested in FSD</label>
+		 <input  type='radio' /><br/>
+		 <input type='tel' placeholder='Enter phonenumber' pattern="[0-9]{10}" name='phno'/><br/>
+		 <label>choose color</label>
+		 <input type='color' name='phno'/><br/>
+		 <input type='file' multiple name='phno'/><br/>
+		        
+		 <select name='select_state' >
+		 <option>assam</option>
+		 <option>bihar</option>
+		 <option>chattisgad</option>
+		 <option>delhi</option>
+		 <option>goa</option>
+		 <option>haryana</option>
+		  
+		 </select><br/>
+		 
+         <input  type='submit' name='submit' value='submit' />
+
+          </form>
+
+
+
+
+
+
+       </body>
+</html>
